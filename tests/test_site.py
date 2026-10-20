@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 INDEX = ROOT / "index.html"
-CODE_URL = "https://github.com/WendyBaiYunwei/PEEK"
+CODE_URL = "https://github.com/DaChengRuoQue/PEEK"
 POSTER_PATH = "assets/PEEK_NeurIPS_2026_Poster.pdf"
 
 
@@ -47,7 +47,7 @@ class ProjectPageTests(unittest.TestCase):
         self.assertGreaterEqual(len(description.get("content", "")), 80)
 
         canonical = self.soup.find("link", rel="canonical")
-        self.assertEqual(canonical["href"], "https://wendybaiyunwei.github.io/PEEK-Video/")
+        self.assertEqual(canonical["href"], "https://dachengruoque.github.io/PEEK-Video/")
 
         for property_name in ("og:title", "og:description", "og:image"):
             self.assertIsNotNone(self.soup.find("meta", attrs={"property": property_name}))

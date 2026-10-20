@@ -2,7 +2,7 @@
 
 Static project page for **PEEK: One-Step-Look-Ahead Exposure Bias Correction for Diffusion Sampling**.
 
-Public site: [wendybaiyunwei.github.io/PEEK-Video](https://wendybaiyunwei.github.io/PEEK-Video/)
+Public site: [dachengruoque.github.io/PEEK-Video](https://dachengruoque.github.io/PEEK-Video/)
 
 ## Local preview
 
